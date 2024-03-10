@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+html, body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color: black;
+}
+.text{
+    font-size: 150px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: linear-gradient(150deg, #5335cf 0%,#de005e 25%,green 50%, blue 75%, white 30%);
+    background-size:400% ;
+    background-clip:text ;
+    color:transparent;
+    animation:animate 10s linear infinite;
+    
+}
+@keyframes animate {
+    100%{
+        background-position: 400%;
+
+    }
+
+    
+}
